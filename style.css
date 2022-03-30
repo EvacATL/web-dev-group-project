@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #1d2228;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#wrapper{
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    min-width: 1200px;
+    max-width: 1480px;
+}
+header{
+    height: 180px;
+    background-color: limegreen;
+}
+#headergif{
+    float: right;
+}
+h1{
+    text-align: center;
+    padding-top: 1em;
+    color: white;
+}
+h2{
+    padding-left: 1em;
+}
+nav{
+    font-weight: bold;
+    background-color: white;
+    padding: 0;
+    border: 0;
+    border-style: none;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+nav li{
+    float: left;
+}
+nav a{
+    display: block;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    border: 2px green outset;
+    padding: 8px 12px;
+    margin: 1em;
+}
+nav a:hover:not(.active){
+    background-color: limegreen;
+    color: black;
+}
+.active{
+    background-color: limegreen;
+    color: black;
+}
+main{
+    background-color:peru;
+    color: black;
+    padding: 1em 2em 1em 2em;
+    display: block;
+}
+#homemain{
+    background-color:peru;
+    color: black;
+    padding: 1em 2em 1em 2em;
+    display: block;
+    float: left;
+    height: 680px;
+    width: 1180px;
+}
+table{ 
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 1em; 
+}
+td, th{ 
+    padding: 5px;
+    border: 5px solid black; 
+}
+tr:nth-of-type(even) { 
+    background-color: #9BC1C2; 
+}
+tr:nth-of-type(odd){
+    background-color: white;
+}
+caption{ 
+    margin: 1em;
+    font-weight: bold;
+    font-size: 120%; 
+}
+.column{
+    float: left;
+    padding: 10px;
+    height: 600px;
+    margin: 0;
+}
+.left, .right{
+    width: 33.33%;
+    color: white;
+}
+.middle{
+    width: 33.33%;
+    color: white;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#homeaside{
+    float: right;
+    background-color: maroon;
+    font-weight: bold;
+    width: 300px;
+    height: 680px;
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    clear:both;
+}
+.mySocialDiv{
+    float: right;
+}
+.followUs{
+    float: left;
+    margin: 0;
+    padding-right: 1em;
+}
