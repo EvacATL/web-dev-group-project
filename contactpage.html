@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Services Page</title>
+        <title>Contact Page</title>
         <meta charset="utf-8">
         <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
@@ -11,50 +11,43 @@
         <div id="wrapper">
             <header>
                 <img id="headergif" src="img/gpgif2.gif" alt="Web Design" width="250" height="180">
-                <h1>Services</h1>
+                <h1>Contact</h1>
             </header>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a class="active" href="secondpage.html">Services</a></li>
-                    <li><a href="thirdpage.html">Contact</a></li>
+                    <li><a href="servicepage.html">Services</a></li>
+                    <li><a class="active" href="contactpage.html">Contact</a></li>
                 </ul>
             </nav>
             <main>
-                <h2>Services</h2>
-                <div class="img">
-                    <img src="img/serviceimg2.jpg" alt="Services" width="1410" height="500">
-                </div>
-                <p>We are a full-service digital consultancy that partners with your enterprise to inspire possibility. Working with your business to break new ground, together.</p>
-                <table>
-                    <caption>Services</caption>
-                    <tr>
-                        <th>Service 1</th>
-                        <th>Service 2</th>
-                        <th>Service 3</th>
-                    </tr>
-                    <tr>
-                        <td>Services</td>
-                        <td>Services</td>
-                        <td>Services</td>
-                    </tr>
-                    <tr>
-                        <td>-----------------</td>
-                        <td>Free Services</td>
-                        <td>Free Services</td>
-                    </tr>
-                    <tr>
-                        <td>-----------------</td>
-                        <td>-----------------</td>
-                        <td>Large Services Voucher</td>
-                    </tr>
-                    <tr>
-                        <td>$5</td>
-                        <td>$10</td>
-                        <td>$20</td>
-                    </tr>
-                </table>
-
+                <h2>Contact</h2>
+                <div class="contactimg"></div>
+                <h2>Get in touch and get started today. We're ready!</h2>
+                <p>As a leading web development firm, we provide experienced consultants, designers and developers to take your online presence to the next level. In addition to creating robust,
+                     scalable and secure enterprise web-based experiences, can also help organizations with migrations, upgrades and integration. Lastly, we offer a full service 
+                     Managed Services offering that includes 24x7 support and maintenance that is able to handle even the most extreme and complex cases swiftly and easily.</p>
+                    <form>
+                        <fieldset>
+                        <legend>Enter Contact Info:</legend><br>
+                        <p>Complete the form, email us at <a href="mailto:consult@gmail.com">consultMe@gmail.com</a> to talk about your upcoming project.</p><br>
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="fname" required="required"><br><br>
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname" required="required"><br><br>
+                        <label for="myEmail">E-mail:</label> &nbsp; &nbsp; &nbsp;
+                        <input type="email" id="myEmail" name="myEmail" required="required"><br><br>
+                        <select name="services" id="services">
+                        <option value="Choose a service">Choose a service</option>
+                        <option value="Service #1">Service #1</option>
+                        <option value="Service #2">Service #2</option>
+                        <option value="Service #3">Service #3</option>
+                        </select> <br> <br>
+                        <label> Tell us a little about your project </label> <br>
+                        <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+                        <br><input type="submit" value="Submit"><br><br>
+                        </fieldset>
+                    </form>
             </main>
             <footer>
                 <div class="copyRight">
